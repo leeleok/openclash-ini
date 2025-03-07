@@ -31,8 +31,8 @@ payload:
   - IP-CIDR,198.183.17.0/24,no-resolve
   - IP-CIDR,205.180.175.0/24,no-resolve
   # AppleNews
-  - DOMAIN,gspe1-ssl.ls.apple.com
+  # - DOMAIN,gspe1-ssl.ls.apple.com
   # AppleTV
-  - DOMAIN,np-edge.itunes.apple.com
-  - DOMAIN,play-edge.itunes.apple.com
-  - DOMAIN-SUFFIX,tv.apple.com
+  # - DOMAIN,np-edge.itunes.apple.com
+  # - DOMAIN,play-edge.itunes.apple.com
+  # - DOMAIN-SUFFIX,tv.apple.com

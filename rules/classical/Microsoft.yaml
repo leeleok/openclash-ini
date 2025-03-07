@@ -1,8 +1,8 @@
 payload:
   # 内容：Microsoft
-  # 数量：79条
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-KEYWORD,microsoft
+  # 数量：79条 (原始数量)
+  # 数量：73条 (删除和第二段重复的条目后)
+  - DOMAIN-KEYWORD,microsoft  
   - DOMAIN-SUFFIX,aadrm.com
   - DOMAIN-SUFFIX,acompli.com
   - DOMAIN-SUFFIX,acompli.net
@@ -23,8 +23,7 @@ payload:
   - DOMAIN-SUFFIX,edgesuite.net
   - DOMAIN-SUFFIX,gfx.ms
   - DOMAIN-SUFFIX,hotmail.com
-  - DOMAIN-SUFFIX,live.com
-  - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,live.net #保留live.net, 因为第二段文本只有live.com的子域名
   - DOMAIN-SUFFIX,lync.com
   - DOMAIN-SUFFIX,msappproxy.net
   - DOMAIN-SUFFIX,msauth.net
@@ -48,7 +47,6 @@ payload:
   - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,officeppe.net
   - DOMAIN-SUFFIX,omniroot.com
-  - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,onestore.ms
@@ -57,9 +55,6 @@ payload:
   - DOMAIN-SUFFIX,phonefactor.net
   - DOMAIN-SUFFIX,public-trust.com
   - DOMAIN-SUFFIX,sfbassets.com
-  - DOMAIN-SUFFIX,sfx.ms
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com

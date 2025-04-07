@@ -105,6 +105,3 @@ payload:
   - IP-CIDR,173.194.218.188/32,no-resolve
   - IP-CIDR,209.85.233.188/32,no-resolve
   - DOMAIN-SUFFIX,googleapis.com
-  # 
-  # VPS代理IP
-  - IP-CIDR,96.8.121.12/32,no-resolve

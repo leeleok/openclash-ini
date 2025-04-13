@@ -183,6 +183,7 @@ payload:
   - DOMAIN-SUFFIX,zijieimg.com
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjcdn.com
+  - DOMAIN-SUFFIX,bytegecko.com
 
   # CCTV
   - DOMAIN-SUFFIX,cctv.com

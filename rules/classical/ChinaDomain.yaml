@@ -184,6 +184,8 @@ payload:
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjcdn.com
   - DOMAIN-SUFFIX,bytegecko.com
+  - DOMAIN-SUFFIX,xinqiucc.com
+  - DOMAIN-SUFFIX,ietheivaicai.com
 
   # CCTV
   - DOMAIN-SUFFIX,cctv.com

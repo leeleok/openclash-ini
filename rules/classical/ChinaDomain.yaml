@@ -53,6 +53,8 @@ payload:
   - DOMAIN-SUFFIX,qhstatic.com
   - DOMAIN-SUFFIX,qhupdate.com
   - DOMAIN-SUFFIX,so.com
+  - DOMAIN-SUFFIX,360simg.com.com
+  
 
   # 4399
   - DOMAIN-SUFFIX,4399.com

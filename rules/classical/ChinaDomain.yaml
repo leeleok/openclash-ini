@@ -52,6 +52,7 @@ payload:
   - DOMAIN-SUFFIX,qhres.com
   - DOMAIN-SUFFIX,qhstatic.com
   - DOMAIN-SUFFIX,qhupdate.com
+  - DOMAIN-SUFFIX,qhmsg.com
   - DOMAIN-SUFFIX,so.com
   - DOMAIN-SUFFIX,360simg.com
   

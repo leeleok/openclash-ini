@@ -1,7 +1,8 @@
 payload:
   # GooglePlay国区下载
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
@@ -105,4 +106,3 @@ payload:
   - IP-CIDR,173.194.175.188/32,no-resolve
   - IP-CIDR,173.194.218.188/32,no-resolve
   - IP-CIDR,209.85.233.188/32,no-resolve
-  - DOMAIN-SUFFIX,googleapis.com

@@ -1,36 +1,41 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: rule
-log-level: info
-external-controller: :9090
-
-dns:
-  enable: true
-  ipv6: false
-  listen: 127.0.0.1:5450
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver: [tls://1.12.12.12:853, tls://223.5.5.5:853]
-  nameserver: [https://doh.pub/dns-query, https://dns.alidns.com/dns-query]
-  fallback: [https://dns.google/dns-query, https://cloudflare-dns.com/dns-query]
-  proxy-server-nameserver: [https://doh.pub/dns-query]
-  nameserver-policy:
-    "geosite:google": fallback
-    "geosite:microsoft": fallback
-    "geosite:gfw": fallback
-    "ipcidr:240.0.0.0/4": fallback
-    "ipcidr:0.0.0.0/8": fallback
-  fake-ip-filter: [geosite:private, DOMAIN-SUFFIX,chacuo.net]
-
 proxies: []
 
 proxy-groups:
-  - {name: 量大专用, type: select, proxies: [{{all}}]}
-  - {name: 日常选择, type: select, proxies: [{{all}}]}
-  - {name: 自动切换, type: fallback, url: https://cp.cloudflare.com/generate_204, interval: 30, proxies: [{{auto}}]}
-  - {name: 节点选择, type: fallback, url: https://cp.cloudflare.com/generate_204, interval: 30, proxies: [日常选择, 自动切换, 量大专用, DIRECT]}
-  - {name: 手动选择, type: select, proxies: [日常选择, 量大专用, 自动切换, DIRECT]}
+  - name: 量大专用
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 日常选择
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 自动切换
+    type: fallback
+    url: https://cp.cloudflare.com/generate_204
+    interval: 30
+    proxies:
+      - DIRECT
+
+  - name: 节点选择
+    type: fallback
+    url: https://cp.cloudflare.com/generate_204
+    interval: 30
+    proxies:
+      - 日常选择
+      - 自动切换
+      - 量大专用
+      - DIRECT
+
+  - name: 手动选择
+    type: select
+    proxies:
+      - 日常选择
+      - 量大专用
+      - 自动切换
+      - DIRECT
+
   - {name: YouTube, type: select, proxies: [节点选择, DIRECT]}
   - {name: 微软云盘, type: select, proxies: [节点选择, DIRECT]}
   - {name: 微软服务, type: select, proxies: [节点选择, DIRECT]}
@@ -39,64 +44,3 @@ proxy-groups:
   - {name: Steam, type: select, proxies: [节点选择, DIRECT]}
   - {name: EA, type: select, proxies: [节点选择, DIRECT]}
   - {name: PikPak, type: select, proxies: [节点选择, DIRECT]}
-
-rule-providers:
-  Reject: {type: http, behavior: domain, url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt", path: ./Custom_Reject.yaml, interval: 86400}
-  YouTube: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/YouTube.yaml", path: ./Custom_YouTube.yaml, interval: 86400}
-  Apple: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/Apple.yaml", path: ./Custom_Apple.yaml, interval: 86400}
-  Steam: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/Steam.yaml", path: ./Custom_Steam.yaml, interval: 86400}
-  OpenAI: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/OpenAI.yaml", path: ./Custom_OpenAI.yaml, interval: 86400}
-  OneDrive: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/OneDrive.yaml", path: ./Custom_OneDrive.yaml, interval: 86400}
-  Origin: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/Origin.yaml", path: ./Custom_Origin.yaml, interval: 86400}
-  Microsoft: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/Microsoft.yaml", path: ./Custom_Microsoft.yaml, interval: 86400}
-  EPIC: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/EPIC.yaml", path: ./Custom_EPIC.yaml, interval: 86400}
-  Discord: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/Discord.yaml", path: ./Custom_Discord.yaml, interval: 86400}
-  Telegram: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/leeleok/openclash-ini/refs/heads/main/rules/classical/Telegram.yaml", path: ./Custom_Telegram.yaml, interval: 86400}
-
-rules:
- - RULE-SET,Reject,REJECT
- - GEOSITE,CATEGORY-ADS-ALL,REJECT
- - DOMAIN-SUFFIX,vultr.com,节点选择
- - DOMAIN-SUFFIX,nnr.moe,节点选择
- - DOMAIN-SUFFIX,istoreos.com,DIRECT
- - DOMAIN-SUFFIX,wqyunpan.com,DIRECT
- - DOMAIN-SUFFIX,leigod.com,DIRECT
- - DOMAIN-SUFFIX,maj-soul.com,手动选择
- - DOMAIN-SUFFIX,eeeknow.com,DIRECT
- - DOMAIN-SUFFIX,zhongxinwanka.com,DIRECT
- - DOMAIN-SUFFIX,bitwarden.com,DIRECT
- - DOMAIN-SUFFIX,inzhi.online,DIRECT
- - DOMAIN-SUFFIX,cftcredit.com,DIRECT
- - DOMAIN-SUFFIX,lylend.com,DIRECT
- - DOMAIN-SUFFIX,51credit.com,DIRECT
- - DOMAIN-SUFFIX,yxmie.com,DIRECT
- - DOMAIN-SUFFIX,benyingtc.com,DIRECT
- - DOMAIN-SUFFIX,tjzimu.com,DIRECT
- - DOMAIN-SUFFIX,fintopia.tech,DIRECT
- - DOMAIN-SUFFIX,manmanbuy.com,DIRECT
- - DOMAIN-SUFFIX,leelen.com,DIRECT
- - DOMAIN-SUFFIX,mypikpak.com,PikPak
- - PROCESS-NAME,aria2c,DIRECT
- - PROCESS-NAME,qbittorrent-nox,DIRECT
- - RULE-SET,Apple,苹果服务
- - RULE-SET,Steam,Steam
- - RULE-SET,OpenAI,节点选择
- - RULE-SET,OneDrive,微软云盘
- - RULE-SET,Microsoft,微软服务
- - RULE-SET,EPIC,EPIC
- - RULE-SET,Origin,EA
- - RULE-SET,Discord,节点选择
- - RULE-SET,YouTube,YouTube
- - RULE-SET,Telegram,YouTube
- - GEOSITE,AMD,手动选择
- - GEOSITE,TWITCH,手动选择
- - GEOSITE,GOOGLE,节点选择
- - GEOSITE,GOOGLE-CN,节点选择
- - GEOIP,GOOGLE,节点选择,no-resolve
- - GEOIP,GOOGLE-CN,节点选择,no-resolve
- - GEOIP,PRIVATE,DIRECT,no-resolve
- - GEOSITE,PRIVATE,DIRECT
- - GEOSITE,GREATFIRE,手动选择
- - GEOIP,CN,DIRECT,no-resolve
- - GEOSITE,CN,DIRECT
- - MATCH,手动选择

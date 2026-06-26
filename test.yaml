@@ -25,4 +25,4 @@ proxies: []
 proxy-groups: []
 
 rules:
-  # subconverter will insert rules here
+  - MATCH,DIRECT

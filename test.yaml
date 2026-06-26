@@ -4,6 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 external-controller: :9090
+
 dns:
   enable: true
   ipv6: false
@@ -19,14 +20,9 @@ dns:
   fallback:
     - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
-  proxy-server-nameserver: 
-    - https://doh.pub/dns-query
-  nameserver-policy:
-    "geosite:google": fallback
-    "geosite:microsoft": fallback
-    "geosite:gfw": fallback
-    "ipcidr:240.0.0.0/4": fallback
-    "ipcidr:0.0.0.0/8": fallback
-  fake-ip-filter:
-    - geosite:private
-    - DOMAIN-SUFFIX,chacuo.net
+
+proxies: []
+proxy-groups: []
+
+rules:
+  # subconverter will insert rules here

@@ -1,0 +1,32 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: :9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:5450
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - tls://1.12.12.12:853
+    - tls://223.5.5.5:853
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+  proxy-server-nameserver: 
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    "geosite:google": fallback
+    "geosite:microsoft": fallback
+    "geosite:gfw": fallback
+    "ipcidr:240.0.0.0/4": fallback
+    "ipcidr:0.0.0.0/8": fallback
+  fake-ip-filter:
+    - geosite:private
+    - DOMAIN-SUFFIX,chacuo.net

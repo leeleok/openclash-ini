@@ -41,9 +41,9 @@ payload:
   - DOMAIN-SUFFIX,checkin.gstatic.com
   - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 
-  # Google Play 图片 / 图标
+  # Google Play 图片 / 图标（保留 ggpht，不属于 YouTube）
   - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,ggpht.cn
 
   # Google Fonts / Static
   - DOMAIN-SUFFIX,gstatic.com
@@ -117,14 +117,6 @@ payload:
   - DOMAIN-SUFFIX,android.com
   - DOMAIN-SUFFIX,android.googlesource.com
 
-  # YouTube（GooglePlay 依赖）
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,youtubeeducation.com
-  - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,youtubegaming.com
-
   # Google Short Links
   - DOMAIN-SUFFIX,g.page
   - DOMAIN-SUFFIX,page.link
@@ -140,7 +132,7 @@ payload:
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
-  # Google 中国区 CDN IP（你原有的）
+  # Google 中国区 CDN IP
   - IP-CIDR,74.125.0.0/16,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
   - IP-CIDR,120.232.181.162/32,no-resolve

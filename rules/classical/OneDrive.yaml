@@ -1,22 +1,36 @@
 payload:
-  # 内容：OneDrive
-  # 数量：18条
-  # USER-AGENT,OneDrive*
-  # USER-AGENT,OneDriveiOSApp*
-  # PROCESS-NAME,OneDrive
-  # PROCESS-NAME,OneDriveUpdater
-  - DOMAIN-KEYWORD,1drv
+  # OneDrive 主域
   - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-KEYWORD,skydrive
-  - DOMAIN-SUFFIX,live.com
-  - DOMAIN-SUFFIX,livefilestore.com
-  - DOMAIN-SUFFIX,oneclient.sfx.ms
   - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,onedrive.live.com
-  - DOMAIN-SUFFIX,photos.live.com
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,onedrive.co
+  - DOMAIN-SUFFIX,onedrive.co.uk
+  - DOMAIN-SUFFIX,onedrive.eu
+  - DOMAIN-SUFFIX,onedrive.net
+  - DOMAIN-SUFFIX,onedrive.org
+
+  # OneDrive 短链
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-SUFFIX,1drv.com
+  - DOMAIN-SUFFIX,1drv.ms
+
+  # SkyDrive（旧版 OneDrive）
+  - DOMAIN-KEYWORD,skydrive
   - DOMAIN-SUFFIX,skydrive.wns.windows.com
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+
+  # OneDrive 客户端
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
+
+  # OneDrive 存储服务
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,storage.msn.com
+  - DOMAIN-SUFFIX,photos.live.com
+
+  # OneDrive 依赖的 SharePoint（团队文件）
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,sharepointonline.com
+
+  # OneDrive CDN
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net

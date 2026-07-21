@@ -2,91 +2,91 @@ payload:
 
   # Google 主域
   - DOMAIN--KEYWORD,google
-  - DOMAIN--SUFFIX,google.com
-  - DOMAIN--SUFFIX,google.cn
-  - DOMAIN--SUFFIX,g.co
-  - DOMAIN--SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,google.cn
+  - DOMAIN-SUFFIX,g.co
+  - DOMAIN-SUFFIX,goo.gl
 
   # Google API
-  - DOMAIN--SUFFIX,googleapis.com
-  - DOMAIN--SUFFIX,googleapis.cn
-  - DOMAIN--SUFFIX,googleadservices.com
-  - DOMAIN--SUFFIX,googleadservices-cn.com
-  - DOMAIN--SUFFIX,googleads.com
-  - DOMAIN--SUFFIX,googleads-cn.com
-  - DOMAIN--SUFFIX,googleadapis.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googleadservices-cn.com
+  - DOMAIN-SUFFIX,googleads.com
+  - DOMAIN-SUFFIX,googleads-cn.com
+  - DOMAIN-SUFFIX,googleadapis.com
 
   # Google Play / 下载
-  - DOMAIN--SUFFIX,dl.google.com
-  - DOMAIN--SUFFIX,redirector.gvt1.com
-  - DOMAIN--SUFFIX,gvt0.com
-  - DOMAIN--SUFFIX,gvt1.com
-  - DOMAIN--SUFFIX,gvt2.com
-  - DOMAIN--SUFFIX,gvt3.com
-  - DOMAIN--SUFFIX,gvt5.com
-  - DOMAIN--SUFFIX,gvt6.com
-  - DOMAIN--SUFFIX,gvt7.com
-  - DOMAIN--SUFFIX,gvt9.com
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,redirector.gvt1.com
+  - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,gvt5.com
+  - DOMAIN-SUFFIX,gvt6.com
+  - DOMAIN-SUFFIX,gvt7.com
+  - DOMAIN-SUFFIX,gvt9.com
 
   # Google Play 服务
-  - DOMAIN--SUFFIX,play.googleapis.com
-  - DOMAIN--SUFFIX,android.clients.google.com
-  - DOMAIN--SUFFIX,checkin.gstatic.com
-  - DOMAIN--SUFFIX,connectivitycheck.gstatic.com
+  - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN-SUFFIX,android.clients.google.com
+  - DOMAIN-SUFFIX,checkin.gstatic.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 
   # Google 图片 / 静态资源
-  - DOMAIN--SUFFIX,ggpht.com
-  - DOMAIN--SUFFIX,ggpht.cn
-  - DOMAIN--SUFFIX,gstatic.com
-  - DOMAIN--SUFFIX,gstatic.cn
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,ggpht.cn
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,gstatic.cn
 
   # Google Fonts
-  - DOMAIN--SUFFIX,fonts.googleapis.com
-  - DOMAIN--SUFFIX,fonts.gstatic.com
+  - DOMAIN-SUFFIX,fonts.googleapis.com
+  - DOMAIN-SUFFIX,fonts.gstatic.com
 
   # Google Maps / Earth
-  - DOMAIN--SUFFIX,google.com/maps
-  - DOMAIN--SUFFIX,earth.google.com
-  - DOMAIN--SUFFIX,kh.google.com
-  - DOMAIN--SUFFIX,khm.google.com
-  - DOMAIN--SUFFIX,khm.googleapis.com
+  - DOMAIN-SUFFIX,google.com/maps
+  - DOMAIN-SUFFIX,earth.google.com
+  - DOMAIN-SUFFIX,kh.google.com
+  - DOMAIN-SUFFIX,khm.google.com
+  - DOMAIN-SUFFIX,khm.googleapis.com
 
   # Safe Browsing / PKI
-  - DOMAIN--SUFFIX,safebrowsing.googleapis.com
-  - DOMAIN--SUFFIX,crl.pki.goog
-  - DOMAIN--SUFFIX,ocsp.pki.goog
-  - DOMAIN--SUFFIX,pki.google.com
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,crl.pki.goog
+  - DOMAIN-SUFFIX,ocsp.pki.goog
+  - DOMAIN-SUFFIX,pki.google.com
 
   # reCAPTCHA
-  - DOMAIN--SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,recaptcha.net
 
   # Analytics
-  - DOMAIN--SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,google-analytics.com
 
   # Firebase
-  - DOMAIN--SUFFIX,firebase.google.com
-  - DOMAIN--SUFFIX,firebaseapp.com
-  - DOMAIN--SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,firebase.google.com
+  - DOMAIN-SUFFIX,firebaseapp.com
+  - DOMAIN-SUFFIX,firebaseio.com
 
   # Google Cloud
-  - DOMAIN--SUFFIX,gcr.io
-  - DOMAIN--SUFFIX,storage.googleapis.com
-  - DOMAIN--SUFFIX,cloudfunctions.net
+  - DOMAIN-SUFFIX,gcr.io
+  - DOMAIN-SUFFIX,storage.googleapis.com
+  - DOMAIN-SUFFIX,cloudfunctions.net
 
   # Chrome / Android
-  - DOMAIN--SUFFIX,chrome.com
-  - DOMAIN--SUFFIX,chromium.org
-  - DOMAIN--SUFFIX,android.com
-  - DOMAIN--SUFFIX,android.googlesource.com
+  - DOMAIN-SUFFIX,chrome.com
+  - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,android.googlesource.com
 
   # Workspace
-  - DOMAIN--SUFFIX,gmail.com
-  - DOMAIN--SUFFIX,googlemail.com
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,googlemail.com
 
   # Google Misc
-  - DOMAIN--SUFFIX,1e100.net
-  - DOMAIN--SUFFIX,2mdn.net
-  - DOMAIN--SUFFIX,265.com
+  - DOMAIN-SUFFIX,1e100.net
+  - DOMAIN-SUFFIX,2mdn.net
+  - DOMAIN-SUFFIX,265.com
 
   # Google IP
   - IP-CIDR,74.125.0.0/16,no-resolve

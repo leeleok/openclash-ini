@@ -1,47 +1,46 @@
-payload:
-  # YouTube 主域
-  - DOMAIN-KEYWORD,youtube
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,yt.be
+# YouTube 主域
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
 
-  # YouTube API
-  - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,youtube.googleapis.com
-  - DOMAIN,youtubeembeddedplayer.googleapis.com
+# YouTube API
+DOMAIN,youtubei.googleapis.com
+DOMAIN,youtube.googleapis.com
+DOMAIN,youtubeembeddedplayer.googleapis.com
 
-  # YouTube CDN / 视频
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,gvt2.com
-  - DOMAIN,wide-youtube.l.google.com
+# YouTube CDN / 视频
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN,wide-youtube.l.google.com
 
-  # YouTube 图片 CDN
-  - DOMAIN,yt3.ggpht.com
-  - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,ggpht.cn
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN,yt3.googleusercontent.com
+# YouTube 图片 CDN
+DOMAIN,yt3.ggpht.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,yt3.googleusercontent.com
 
-  # YouTube UI / 前端资源
-  - DOMAIN-SUFFIX,withyoutube.com
-  - DOMAIN,youtube-ui.l.google.com
+# YouTube UI / 前端资源
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN,youtube-ui.l.google.com
 
-  # YouTube 子服务
-  - DOMAIN-SUFFIX,youtubeeducation.com
-  - DOMAIN-SUFFIX,youtubegaming.com
-  - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,youtubemobilesupport.com
+# YouTube 子服务
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtubemobilesupport.com
 
-  # YouTube Go（部分地区仍使用）
-  - DOMAIN-SUFFIX,youtubego.com
-  - DOMAIN-SUFFIX,youtubego.co.in
-  - DOMAIN-SUFFIX,youtubego.co.id
-  - DOMAIN-SUFFIX,youtubego.id
-  - DOMAIN-SUFFIX,youtubego.in
+# YouTube Go（部分地区仍使用）
+DOMAIN-SUFFIX,youtubego.com
+DOMAIN-SUFFIX,youtubego.co.in
+DOMAIN-SUFFIX,youtubego.co.id
+DOMAIN-SUFFIX,youtubego.id
+DOMAIN-SUFFIX,youtubego.in
 
-  # YouTube FanFest / 活动
-  - DOMAIN-SUFFIX,youtubefanfest.com
+# YouTube FanFest / 活动
+DOMAIN-SUFFIX,youtubefanfest.com
 
-  # YouTube 广告
-  - DOMAIN,ads.youtube.com
+# YouTube 广告
+DOMAIN,ads.youtube.com

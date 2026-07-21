@@ -24,6 +24,7 @@ payload:
   # App Store / iTunes
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,itunes-apple.com
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,apps.mzstatic.com

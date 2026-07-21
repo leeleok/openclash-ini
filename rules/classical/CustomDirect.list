@@ -1,16 +1,17 @@
-DOMAIN-SUFFIX,istoreos.com
-DOMAIN-SUFFIX,wqyunpan.com
-DOMAIN-SUFFIX,leigod.com
-DOMAIN-SUFFIX,eeeknow.com
-DOMAIN-SUFFIX,zhongxinwanka.com
-DOMAIN-SUFFIX,bitwarden.com
-DOMAIN-SUFFIX,inzhi.online
-DOMAIN-SUFFIX,cftcredit.com
-DOMAIN-SUFFIX,lylend.com
-DOMAIN-SUFFIX,51credit.com
-DOMAIN-SUFFIX,yxmie.com
-DOMAIN-SUFFIX,benyingtc.com
-DOMAIN-SUFFIX,tjzimu.com
-DOMAIN-SUFFIX,fintopia.tech
-DOMAIN-SUFFIX,manmanbuy.com
-DOMAIN-SUFFIX,leelen.com
+payload:
+  - DOMAIN-SUFFIX,istoreos.com
+  - DOMAIN-SUFFIX,wqyunpan.com
+  - DOMAIN-SUFFIX,leigod.com
+  - DOMAIN-SUFFIX,eeeknow.com
+  - DOMAIN-SUFFIX,zhongxinwanka.com
+  - DOMAIN-SUFFIX,bitwarden.com
+  - DOMAIN-SUFFIX,inzhi.online
+  - DOMAIN-SUFFIX,cftcredit.com
+  - DOMAIN-SUFFIX,lylend.com
+  - DOMAIN-SUFFIX,51credit.com
+  - DOMAIN-SUFFIX,yxmie.com
+  - DOMAIN-SUFFIX,benyingtc.com
+  - DOMAIN-SUFFIX,tjzimu.com
+  - DOMAIN-SUFFIX,fintopia.tech
+  - DOMAIN-SUFFIX,manmanbuy.com
+  - DOMAIN-SUFFIX,leelen.com

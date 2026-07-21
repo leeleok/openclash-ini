@@ -1,28 +1,26 @@
-# Gemini / Google AI
+payload:
 
-# Gemini 主站
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,bard.google.com
+  # Gemini / Google AI
 
+  # Gemini 主站
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,bard.google.com
 
-# Google AI / Generative Language
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+  # Google AI / Generative Language
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 
+  # Google Developer / Colab
+  - DOMAIN-KEYWORD,colab
+  - DOMAIN-KEYWORD,developerprofiles
 
-# Google Developer / Colab
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
+  # DeepMind
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
 
-
-# DeepMind
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-
-
-# Gemini API / Backend
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
+  # Gemini API / Backend
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,apis.google.com

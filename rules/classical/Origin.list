@@ -1,37 +1,30 @@
-# EA / Origin 主域
+# EA 主域
+
 DOMAIN-SUFFIX,ea.com
 DOMAIN-SUFFIX,eastore.com
 DOMAIN-SUFFIX,origin.com
 DOMAIN-SUFFIX,origin.tv
 
-# EA App / Origin 登录认证
-DOMAIN-SUFFIX,accounts.ea.com
-DOMAIN-SUFFIX,signin.ea.com
-DOMAIN-SUFFIX,login.ea.com
-DOMAIN-SUFFIX,auth.ea.com
 
-# EA API / 服务通信
-DOMAIN-SUFFIX,api.ea.com
-DOMAIN-SUFFIX,rtm.tnt-ea.com
-DOMAIN-SUFFIX,prod.tnt-ea.com
+# EA 静态资源
 
-# EA CDN / 静态资源
 DOMAIN,origin-a.akamaihd.net
 DOMAIN,originasserts.akamaized.net
 DOMAIN,eaasserts-a.akamaihd.net
 DOMAIN,ssl-lvlt.cdn.ea.com
-DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,akamaihd.net
+
 
 # EA 游戏服务
+
 DOMAIN-SUFFIX,dawngate.com
 DOMAIN-SUFFIX,lordofultima.com
 
-# EA 云存储 / 同步
-DOMAIN,cloudsync-prod.s3.amazonaws.com
-DOMAIN-SUFFIX,s3.amazonaws.com
 
-# EA 反作弊
-DOMAIN-SUFFIX,eac-cdn.com
-DOMAIN-SUFFIX,easy.ac
-DOMAIN-SUFFIX,easyanticheat.net
+# EA 实时服务
+
+DOMAIN,rtm.tnt-ea.com
+
+
+# EA 云同步
+
+DOMAIN,cloudsync-prod.s3.amazonaws.com

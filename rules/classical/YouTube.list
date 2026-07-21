@@ -10,21 +10,25 @@ DOMAIN,youtubei.googleapis.com
 DOMAIN,youtube.googleapis.com
 DOMAIN,youtubeembeddedplayer.googleapis.com
 
-# YouTube CDN / 视频
+# YouTube 视频 CDN
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN,wide-youtube.l.google.com
 
-# YouTube 图片 CDN
+# YouTube 图片 / 缩略图 CDN
 DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN,yt3.googleusercontent.com
 
-# YouTube UI / 前端资源
+# YouTube 前端 / UI
 DOMAIN-SUFFIX,withyoutube.com
 DOMAIN,youtube-ui.l.google.com
+
+# YouTube TV / 设备
+DOMAIN-SUFFIX,youtube.tv
+DOMAIN-SUFFIX,youtubetv.com
 
 # YouTube 子服务
 DOMAIN-SUFFIX,youtubeeducation.com
@@ -32,14 +36,14 @@ DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtubemobilesupport.com
 
-# YouTube Go（部分地区仍使用）
+# YouTube Go
 DOMAIN-SUFFIX,youtubego.com
 DOMAIN-SUFFIX,youtubego.co.in
 DOMAIN-SUFFIX,youtubego.co.id
 DOMAIN-SUFFIX,youtubego.id
 DOMAIN-SUFFIX,youtubego.in
 
-# YouTube FanFest / 活动
+# YouTube 活动
 DOMAIN-SUFFIX,youtubefanfest.com
 
 # YouTube 广告

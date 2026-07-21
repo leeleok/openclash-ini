@@ -1,0 +1,55 @@
+# Epic 主域
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,epicgames.dev
+DOMAIN-SUFFIX,epicgamescdn.com
+
+# Unreal Engine / Unreal Tournament
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,unrealtournament.com
+DOMAIN-SUFFIX,radgametools.com
+
+# Fortnite
+DOMAIN-SUFFIX,fortnite.com
+DOMAIN,fortnite-vod.akamaized.net
+DOMAIN,egdownload.fastly-edge.com
+
+# Epic Anti-Cheat
+DOMAIN-SUFFIX,easy.ac
+DOMAIN-SUFFIX,easyanticheat.net
+DOMAIN-SUFFIX,eac-cdn.com
+
+# Epic 自家游戏
+DOMAIN-SUFFIX,paragon.com
+DOMAIN-SUFFIX,playparagon.com
+DOMAIN-SUFFIX,battlebreakers.com
+DOMAIN-SUFFIX,roborecall.com
+DOMAIN-SUFFIX,shadowcomplex.com
+DOMAIN-SUFFIX,spyjinx.com
+
+# Epic 收购的公司（全部官方）
+DOMAIN-SUFFIX,3lateral.com
+DOMAIN-SUFFIX,capturingreality.com
+DOMAIN-SUFFIX,cubicmotion.com
+DOMAIN-SUFFIX,hyprsense.com
+
+# Quixel（Epic 收购）
+DOMAIN-SUFFIX,quixel.com
+DOMAIN-SUFFIX,quixel.se
+
+# RealityScan（Epic 官方）
+DOMAIN-SUFFIX,realityscan.com
+
+# ArtStation（Epic 旗下）
+DOMAIN-SUFFIX,artstation.com
+
+# Fab（Epic 旗下资源平台）
+DOMAIN-SUFFIX,fab.com
+
+# Twinmotion（Epic 官方）
+DOMAIN-SUFFIX,twinmotion.com
+
+# Sketchfab（Epic 收购）
+DOMAIN-SUFFIX,sketchfab.com
+
+# Helpshift（Epic 客服系统）
+DOMAIN-SUFFIX,helpshift.com

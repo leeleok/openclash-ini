@@ -1,0 +1,47 @@
+# OpenAI 主域
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
+
+# OpenAI 静态资源
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# ChatGPT / LiveKit（语音、视频）
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+# Sora 视频模型
+DOMAIN-SUFFIX,sora.com
+
+# Sentry（OpenAI 遥测）
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,o33249.ingest.sentry.io
+
+# Datadog（OpenAI 遥测）
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+
+# OpenAI 新服务域名
+DOMAIN-SUFFIX,crixet.com
+
+# 你原有的第三方依赖域名（OpenAI 登录/验证/支付）
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,stripe.com
+
+# 关键字匹配（兜底）
+DOMAIN-KEYWORD,openai

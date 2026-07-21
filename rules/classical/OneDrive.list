@@ -8,28 +8,61 @@ DOMAIN-SUFFIX,onedrive.eu
 DOMAIN-SUFFIX,onedrive.net
 DOMAIN-SUFFIX,onedrive.org
 
-# OneDrive 短链
+# OneDrive 分享链接 / 短链
 DOMAIN-KEYWORD,1drv
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,1drv.ms
 
-# SkyDrive（旧版 OneDrive）
+# SkyDrive 旧服务
 DOMAIN-KEYWORD,skydrive
 DOMAIN-SUFFIX,skydrive.wns.windows.com
 
-# OneDrive 客户端
+# OneDrive 客户端组件
 DOMAIN-SUFFIX,oneclient.sfx.ms
+DOMAIN-SUFFIX,onedriveclient.com
+
+# OneDrive API
+DOMAIN-SUFFIX,api.onedrive.com
+DOMAIN-SUFFIX,graph.microsoft.com
+
+# Microsoft 登录认证（OneDrive 必需）
+DOMAIN-SUFFIX,login.live.com
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,msidentity.com
+DOMAIN-SUFFIX,msftidentity.com
 
 # OneDrive 存储服务
-DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
 DOMAIN-SUFFIX,photos.live.com
 
-# OneDrive 依赖的 SharePoint（团队文件）
+# Microsoft Live 服务（OneDrive 账号依赖）
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+
+# SharePoint 文件存储（OneDrive 企业版 / Teams）
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,sharepoint.cn
 
 # OneDrive CDN
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,akamaized.net
+
+# Microsoft 文件下载 CDN
+DOMAIN-SUFFIX,download.microsoft.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+
+# Microsoft Graph / Office 文件接口
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+
+# OneDrive 状态与服务检测
+DOMAIN-SUFFIX,svc.ms
+DOMAIN-SUFFIX,msftncsi.com
+DOMAIN-SUFFIX,msftconnecttest.com

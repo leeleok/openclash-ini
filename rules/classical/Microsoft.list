@@ -4,139 +4,98 @@ DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoft.net
 DOMAIN-SUFFIX,microsoft.org
 DOMAIN-SUFFIX,microsoft.io
+DOMAIN-SUFFIX,microsoft365.com
 DOMAIN-SUFFIX,microsoftazuread-sso.com
 DOMAIN-SUFFIX,microsoftcloud.com
-DOMAIN-SUFFIX,microsoft365.com
 
-# Azure 全家桶
+# Azure
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,azure.cn
 DOMAIN-SUFFIX,azure.net
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,azurefd.net
-DOMAIN-SUFFIX,azureiotcentral.com
-DOMAIN-SUFFIX,azureiotsuite.com
-DOMAIN-SUFFIX,azurecosmosdb.com
-DOMAIN-SUFFIX,azurecosmosdb.net
 DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,azurecontainer.io
 DOMAIN-SUFFIX,azurecr.cn
-DOMAIN-SUFFIX,azurecr-test.cn
-DOMAIN-SUFFIX,azurestackvalidation.com
-DOMAIN-SUFFIX,azureplanetscale.net
-DOMAIN-SUFFIX,azureplanetscale.info
-DOMAIN-SUFFIX,azureprivatedns.cn
+DOMAIN-SUFFIX,azuremarketplace.microsoft.com
+DOMAIN-SUFFIX,azureiotcentral.com
 DOMAIN-SUFFIX,azuredigitaltwins.com
 DOMAIN-SUFFIX,azuredigitaltwins.net
-DOMAIN-SUFFIX,azuredns-prd.info
-DOMAIN-SUFFIX,azuredns-prd.org
-DOMAIN-SUFFIX,azureiotcentral.com
-DOMAIN-SUFFIX,azureiotsolutions.com
-DOMAIN-SUFFIX,azurehdinsight.cn
-DOMAIN-SUFFIX,azuremarketplace.microsoft.com
 
-# Office / Outlook / OneDrive / SharePoint
+# Office / Microsoft 365
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,office365.cn
 DOMAIN-SUFFIX,officecdn.microsoft.com
-DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,outlook.cn
 DOMAIN-SUFFIX,outlookmobile.com
-DOMAIN-SUFFIX,onenote.com
-DOMAIN-SUFFIX,onenote.net
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onedrive.net
-DOMAIN-SUFFIX,onedrive.org
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sharepoint.cn
 DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,onenote.net
 
-# Windows / Windows Update
+# Windows / Update
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsazure.com
-DOMAIN-SUFFIX,windowsazure.cn
 DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN-SUFFIX,ctldl.windowsupdate.com
 DOMAIN-SUFFIX,download.windowsupdate.com
+DOMAIN-SUFFIX,ctldl.windowsupdate.com
 
 # Bing / MSN
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.com.cn
 DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,bingapis.com
-DOMAIN-SUFFIX,bingapistatistics.com
-DOMAIN-SUFFIX,bingvisualsearch.com
-DOMAIN-SUFFIX,bingworld.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,msn.cn
 
-# Xbox / Minecraft / Bethesda
+# Xbox / 游戏
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
-DOMAIN-SUFFIX,xboxgamestudios.com
-DOMAIN-SUFFIX,xboxgamepass.com
 DOMAIN-SUFFIX,xboxservices.com
+DOMAIN-SUFFIX,xboxgamepass.com
 DOMAIN-SUFFIX,minecraft.net
 DOMAIN-SUFFIX,minecraftservices.com
 DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,bethesda.net
-DOMAIN-SUFFIX,bethesdagamestudios.com
 DOMAIN-SUFFIX,doom.com
-DOMAIN-SUFFIX,elderscrolls.com
 DOMAIN-SUFFIX,forza.net
-DOMAIN-SUFFIX,forzamotorsport.net
 
-# Visual Studio / .NET / Developer
+# Visual Studio / .NET
 DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,visualstudio.net
-DOMAIN-SUFFIX,visualstudio.co
-DOMAIN-SUFFIX,visualstudio.co.uk
 DOMAIN-SUFFIX,dot.net
 DOMAIN-SUFFIX,asp.net
 DOMAIN-SUFFIX,aspnetcdn.com
 DOMAIN-SUFFIX,nuget.org
-DOMAIN-SUFFIX,nugettest.org
-DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,mono-project.com
 
-# GitHub（微软旗下）
-DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,github.dev
-DOMAIN-SUFFIX,githubstatus.com
-DOMAIN-SUFFIX,githubnext.com
-DOMAIN-SUFFIX,githubcopilot.com
-
-# Dynamics / Power Platform
+# Power Platform
 DOMAIN-SUFFIX,dynamics.com
 DOMAIN-SUFFIX,dynamics.cn
 DOMAIN-SUFFIX,powerapps.cn
 DOMAIN-SUFFIX,powerautomate.cn
-DOMAIN-SUFFIX,powerbi.cn
 DOMAIN-SUFFIX,powerbi.com
 DOMAIN-SUFFIX,powerappscdn.net
 
 # Microsoft Store
 DOMAIN-SUFFIX,microsoftstore.com
 DOMAIN-SUFFIX,microsoftstore.com.cn
-DOMAIN-SUFFIX,microsoftstore.com.hk
 
-# Microsoft Cloud / Graph / AI
+# Graph / AI / Cloud
 DOMAIN-SUFFIX,graphengine.io
 DOMAIN-SUFFIX,applicationinsights.io
 DOMAIN-SUFFIX,applicationinsights.net
 DOMAIN-SUFFIX,videoindexer.ai
 DOMAIN-SUFFIX,virtualearth.net
 
-# Microsoft Edge / CDN / Traffic Manager
+# Edge CDN
 DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,a-msedge.net
 DOMAIN-SUFFIX,c-msedge.net
@@ -144,55 +103,34 @@ DOMAIN-SUFFIX,l-msedge.net
 DOMAIN-SUFFIX,s-msedge.net
 DOMAIN-SUFFIX,t-msedge.net
 DOMAIN-SUFFIX,trafficmanager.net
-DOMAIN-SUFFIX,trafficmanager.cn
 DOMAIN-SUFFIX,msecnd.net
 
-# Skype
+# Skype / Teams
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,skype.net
 DOMAIN-SUFFIX,skypeassets.com
-DOMAIN-SUFFIX,skypeassets.net
+DOMAIN-SUFFIX,microsoftteams.com
+DOMAIN-SUFFIX,sway.com
+DOMAIN-SUFFIX,yammer.com
 
-# Outlook / Hotmail
-DOMAIN-SUFFIX,hotmail.com
-DOMAIN-SUFFIX,hotmail.net
-DOMAIN-SUFFIX,hotmail.org
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,live.net
+# 登录认证
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,msidentity.com
+DOMAIN-SUFFIX,msftidentity.com
+DOMAIN-SUFFIX,svc.ms
 
-# Microsoft PKI / OCSP / CRL
-DOMAIN-SUFFIX,crl.microsoft.com
-DOMAIN-SUFFIX,ocsp.microsoft.com
-DOMAIN-SUFFIX,mscrl.microsoft.com
-DOMAIN-SUFFIX,oneocsp.microsoft.com
-
-# Microsoft 下载 CDN
+# 下载 CDN
 DOMAIN-SUFFIX,download.microsoft.com
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 DOMAIN-SUFFIX,software.download.prss.microsoft.com
 DOMAIN-SUFFIX,surface.downloads.prss.microsoft.com
 DOMAIN-SUFFIX,vscode.download.prss.microsoft.com
 
-# Teams / Sway / Yammer
-DOMAIN-SUFFIX,microsoftteams.com
-DOMAIN-SUFFIX,sway.com
-DOMAIN-SUFFIX,sway-cdn.com
-DOMAIN-SUFFIX,yammer.com
-DOMAIN-SUFFIX,yammerusercontent.com
-
-# 其他微软官方域名（筛选后保留）
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msftncsi.com
-DOMAIN-SUFFIX,svc.ms
-DOMAIN-SUFFIX,msappproxy.net
-DOMAIN-SUFFIX,msauth.net
-DOMAIN-SUFFIX,msauthimages.net
-DOMAIN-SUFFIX,msftauth.net
-DOMAIN-SUFFIX,msftauthimages.net
-DOMAIN-SUFFIX,msftidentity.com
-DOMAIN-SUFFIX,msidentity.com
-DOMAIN-SUFFIX,msocdn.com
-DOMAIN-SUFFIX,msocsp.com
-DOMAIN-SUFFIX,msedge.net
-DOMAIN-SUFFIX,msft.net
-DOMAIN-SUFFIX,msftcloudes.cn
+# PKI
+DOMAIN-SUFFIX,crl.microsoft.com
+DOMAIN-SUFFIX,ocsp.microsoft.com
+DOMAIN-SUFFIX,mscrl.microsoft.com
+DOMAIN-SUFFIX,oneocsp.microsoft.com

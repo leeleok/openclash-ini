@@ -1,0 +1,57 @@
+payload:
+
+  # Epic 主域
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,epicgamescdn.com
+
+  # Unreal Engine
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,unrealtournament.com
+  - DOMAIN-SUFFIX,radgametools.com
+
+  # Fortnite
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN,fortnite-vod.akamaized.net
+  - DOMAIN,egdownload.fastly-edge.com
+
+  # Anti Cheat
+  - DOMAIN-SUFFIX,easy.ac
+  - DOMAIN-SUFFIX,easyanticheat.net
+  - DOMAIN-SUFFIX,eac-cdn.com
+
+  # Epic 游戏
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,playparagon.com
+  - DOMAIN-SUFFIX,battlebreakers.com
+  - DOMAIN-SUFFIX,roborecall.com
+  - DOMAIN-SUFFIX,shadowcomplex.com
+  - DOMAIN-SUFFIX,spyjinx.com
+
+  # Epic 收购
+  - DOMAIN-SUFFIX,3lateral.com
+  - DOMAIN-SUFFIX,capturingreality.com
+  - DOMAIN-SUFFIX,cubicmotion.com
+  - DOMAIN-SUFFIX,hyprsense.com
+
+  # Quixel
+  - DOMAIN-SUFFIX,quixel.com
+  - DOMAIN-SUFFIX,quixel.se
+
+  # RealityScan
+  - DOMAIN-SUFFIX,realityscan.com
+
+  # ArtStation
+  - DOMAIN-SUFFIX,artstation.com
+
+  # Fab
+  - DOMAIN-SUFFIX,fab.com
+
+  # Twinmotion
+  - DOMAIN-SUFFIX,twinmotion.com
+
+  # Sketchfab
+  - DOMAIN-SUFFIX,sketchfab.com
+
+  # 客服
+  - DOMAIN-SUFFIX,helpshift.com

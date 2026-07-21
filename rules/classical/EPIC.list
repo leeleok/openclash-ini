@@ -1,27 +1,33 @@
-# Epic Games 主站 / Launcher / API
+# Epic 主域
+
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,epicgames.dev
 DOMAIN-SUFFIX,epicgamescdn.com
 
-# Epic 下载 CDN
-DOMAIN-SUFFIX,egdownload.fastly-edge.com
-DOMAIN-SUFFIX,akamaized.net
-
-# Fortnite
-DOMAIN-SUFFIX,fortnite.com
-DOMAIN,fortnite-vod.akamaized.net
-
-# Epic Anti-Cheat
-DOMAIN-SUFFIX,easy.ac
-DOMAIN-SUFFIX,easyanticheat.net
-DOMAIN-SUFFIX,eac-cdn.com
 
 # Unreal Engine
+
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,unrealtournament.com
 DOMAIN-SUFFIX,radgametools.com
 
-# Epic 游戏服务
+
+# Fortnite
+
+DOMAIN-SUFFIX,fortnite.com
+DOMAIN,fortnite-vod.akamaized.net
+DOMAIN,egdownload.fastly-edge.com
+
+
+# Anti Cheat
+
+DOMAIN-SUFFIX,easy.ac
+DOMAIN-SUFFIX,easyanticheat.net
+DOMAIN-SUFFIX,eac-cdn.com
+
+
+# Epic 游戏
+
 DOMAIN-SUFFIX,paragon.com
 DOMAIN-SUFFIX,playparagon.com
 DOMAIN-SUFFIX,battlebreakers.com
@@ -29,27 +35,46 @@ DOMAIN-SUFFIX,roborecall.com
 DOMAIN-SUFFIX,shadowcomplex.com
 DOMAIN-SUFFIX,spyjinx.com
 
-# Epic 数字资产平台
-DOMAIN-SUFFIX,fab.com
-DOMAIN-SUFFIX,quixel.com
-DOMAIN-SUFFIX,quixel.se
-DOMAIN-SUFFIX,realityscan.com
 
-# Epic 旗下创作工具
-DOMAIN-SUFFIX,twinmotion.com
-DOMAIN-SUFFIX,artstation.com
-DOMAIN-SUFFIX,sketchfab.com
+# Epic 收购
 
-# Epic 技术公司
 DOMAIN-SUFFIX,3lateral.com
 DOMAIN-SUFFIX,capturingreality.com
 DOMAIN-SUFFIX,cubicmotion.com
 DOMAIN-SUFFIX,hyprsense.com
 
-# Epic 客服
-DOMAIN-SUFFIX,helpshift.com
 
-# Epic 登录 / 认证
-DOMAIN-SUFFIX,epicgames.com
-DOMAIN-SUFFIX,ol.epicgames.com
-DOMAIN-SUFFIX,account-public-service-prod03.ol.epicgames.com
+# Quixel
+
+DOMAIN-SUFFIX,quixel.com
+DOMAIN-SUFFIX,quixel.se
+
+
+# RealityScan
+
+DOMAIN-SUFFIX,realityscan.com
+
+
+# ArtStation
+
+DOMAIN-SUFFIX,artstation.com
+
+
+# Fab
+
+DOMAIN-SUFFIX,fab.com
+
+
+# Twinmotion
+
+DOMAIN-SUFFIX,twinmotion.com
+
+
+# Sketchfab
+
+DOMAIN-SUFFIX,sketchfab.com
+
+
+# 客服
+
+DOMAIN-SUFFIX,helpshift.com

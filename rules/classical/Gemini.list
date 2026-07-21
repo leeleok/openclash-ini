@@ -1,15 +1,25 @@
-# 内容：Gemini
-# 数量：13条
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
+# Google Gemini / AI 服务
+
+# Gemini 主站
+DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,generativeai.google
+
+# Gemini API / AI Studio
+DOMAIN,ai.google.dev
+DOMAIN,makersuite.google.com
+DOMAIN-KEYWORD,generativelanguage
+
+# Google AI 后端
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# Google Colab
+DOMAIN-KEYWORD,colab
+
+# Google 开发者账号
+DOMAIN-KEYWORD,developerprofiles
+
+# DeepMind
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com

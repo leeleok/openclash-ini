@@ -1,4 +1,4 @@
-# Steam 主域
+# Steam 主域 / 客户端
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamgames.com
@@ -10,6 +10,12 @@ DOMAIN-SUFFIX,steam.tv
 DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,s.team
+
+# Steam API
+DOMAIN-SUFFIX,steam-api.com
+DOMAIN-SUFFIX,api.steampowered.com
+DOMAIN-SUFFIX,store.steampowered.com
+DOMAIN-SUFFIX,help.steampowered.com
 
 # Steam CDN / 下载节点
 DOMAIN,steampipe.akamaized.net
@@ -24,32 +30,34 @@ DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamvideo-a.akamaihd.net
 DOMAIN,steammobile.akamaized.net
 
-# Steam Cloud / UGC
+# Steam 图片 / UGC / 创意工坊
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamuserimages.com
+DOMAIN-SUFFIX,steamworkshop.com
+
+# Steam Cloud
 DOMAIN,steamcloudsweden.blob.core.windows.net
 DOMAIN,steamugcquincy.blob.core.windows.net
 
 # Steam Deck
 DOMAIN-SUFFIX,steamdeck.com
 
-# Steam Artifact / Underlords
-DOMAIN-SUFFIX,playartifact.com
-DOMAIN-SUFFIX,underlords.com
-
-# Valve 官方域名
+# Valve 官方
 DOMAIN-SUFFIX,valvesoftware.com
 DOMAIN-SUFFIX,valve.net
 
-# Steam Connect Test
+# Steam 联机检测
 DOMAIN-SUFFIX,steamconnecttest.com
 
-# Steam API
-DOMAIN-SUFFIX,steam-api.com
+# Steam 游戏服务
+DOMAIN-SUFFIX,playartifact.com
+DOMAIN-SUFFIX,underlords.com
 
-# Steam China WMSJ（完美世界）
+# Steam 中国 / 完美世界
 DOMAIN-SUFFIX,wmsjsteam.com
 DOMAIN-SUFFIX,csgo.wmsj.cn
 DOMAIN-SUFFIX,dota2.wmsj.cn
 
-# Steam Store Partners
+# Steam 商店合作伙伴
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com

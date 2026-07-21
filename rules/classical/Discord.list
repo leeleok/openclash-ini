@@ -1,42 +1,70 @@
-# Discord 主站 / API
+# Discord 主域
+
 DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordapp.io
 
-# Discord Gateway / WebSocket
-DOMAIN,gateway.discord.gg
 
-# Discord CDN / 图片 / 文件
+# Discord CDN / 上传
+
 DOMAIN-SUFFIX,discordcdn.com
-DOMAIN-SUFFIX,cdn.discordapp.com
-DOMAIN-SUFFIX,media.discordapp.net
-DOMAIN-SUFFIX,images-ext-1.discordapp.net
-DOMAIN-SUFFIX,images-ext-2.discordapp.net
 DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
 
-# Discord 媒体服务
-DOMAIN-SUFFIX,discord.media
 
-# 官方短链 / 跳转
+# Discord 短链
+
 DOMAIN-SUFFIX,dis.gd
 DOMAIN-SUFFIX,discord.new
 
-# Nitro / 礼物
-DOMAIN-SUFFIX,discord.gift
-DOMAIN-SUFFIX,discord.gifts
 
-# Discord 状态
-DOMAIN-SUFFIX,discordstatus.com
+# Discord 活动
 
-# 开发者
-DOMAIN-SUFFIX,discord.dev
-
-# 活动 / 游戏
 DOMAIN-SUFFIX,discord-activities.com
 DOMAIN-SUFFIX,discordactivities.com
 DOMAIN-SUFFIX,discordpartygames.com
 
+
+# Discord Bot
+
+DOMAIN-SUFFIX,airhorn.solutions
+DOMAIN-SUFFIX,airhornbot.com
+DOMAIN-SUFFIX,bigbeans.solutions
+
+
+# Discord 商店
+
+DOMAIN-SUFFIX,discord.store
+DOMAIN-SUFFIX,discordmerch.com
+
+
+# Discord 开发
+
+DOMAIN-SUFFIX,discord.dev
+DOMAIN-SUFFIX,discord.design
+
+
+# Nitro
+
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
+
+
+# Discord 工具
+
+DOMAIN-SUFFIX,discord.tools
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,discordsays.com
+
+
 # 历史域名
+
 DOMAIN,hammerandchisel.ssl.zendesk.com
+
+
+# 官方趣味域名
+
+DOMAIN-SUFFIX,watchanimeattheoffice.com

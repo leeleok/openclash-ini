@@ -1,76 +1,57 @@
-# Steam 主域
+payload:
 
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamstat.us
-DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,steam.tv
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,s.team
+  # Steam 主域
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steam.tv
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,s.team
 
+  # Steam CDN / 下载
+  - DOMAIN,steampipe.akamaized.net
+  - DOMAIN,steampipe-kr.akamaized.net
+  - DOMAIN,steampipe-partner.akamaized.net
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN,steamvideo-a.akamaihd.net
+  - DOMAIN,steammobile.akamaized.net
 
-# Steam CDN / 下载
+  # Steam Cloud
+  - DOMAIN,steamcloudsweden.blob.core.windows.net
+  - DOMAIN,steamugcquincy.blob.core.windows.net
 
-DOMAIN,steampipe.akamaized.net
-DOMAIN,steampipe-kr.akamaized.net
-DOMAIN,steampipe-partner.akamaized.net
+  # Steam Deck
+  - DOMAIN-SUFFIX,steamdeck.com
 
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
+  # Valve
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-SUFFIX,valve.net
 
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamvideo-a.akamaihd.net
-DOMAIN,steammobile.akamaized.net
+  # Steam API
+  - DOMAIN-SUFFIX,steam-api.com
 
+  # Steam Connect
+  - DOMAIN-SUFFIX,steamconnecttest.com
 
-# Steam Cloud
+  # Steam 中国
+  - DOMAIN-SUFFIX,wmsjsteam.com
+  - DOMAIN-SUFFIX,csgo.wmsj.cn
+  - DOMAIN-SUFFIX,dota2.wmsj.cn
 
-DOMAIN,steamcloudsweden.blob.core.windows.net
-DOMAIN,steamugcquincy.blob.core.windows.net
+  # Steam 合作商店
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
 
-
-# Steam Deck
-
-DOMAIN-SUFFIX,steamdeck.com
-
-
-# Valve
-
-DOMAIN-SUFFIX,valvesoftware.com
-DOMAIN-SUFFIX,valve.net
-
-
-# Steam API
-
-DOMAIN-SUFFIX,steam-api.com
-
-
-# Steam Connect
-
-DOMAIN-SUFFIX,steamconnecttest.com
-
-
-# Steam 中国
-
-DOMAIN-SUFFIX,wmsjsteam.com
-DOMAIN-SUFFIX,csgo.wmsj.cn
-DOMAIN-SUFFIX,dota2.wmsj.cn
-
-
-# Steam 合作商店
-
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-
-
-# Valve 游戏
-
-DOMAIN-SUFFIX,playartifact.com
-DOMAIN-SUFFIX,underlords.com
+  # Valve 游戏
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,underlords.com

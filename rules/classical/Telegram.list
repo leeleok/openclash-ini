@@ -1,40 +1,55 @@
 # Telegram 主域
+
 DOMAIN-KEYWORD,telegram
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,telegram.space
 
-# Telegram 短链 / 邀请链接
+
+# Telegram 短链
+
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tx.me
 
+
 # Telegram 客户端
+
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telega.one
 
-# Telegram 图文 / 发布平台
+
+# Telegram 内容服务
+
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,quiz.directory
 
-# Telegram CDN / 文件
+
+# Telegram CDN
+
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,usercontent.dev
 
+
 # Telegram 开发者
+
 DOMAIN-SUFFIX,tg.dev
 
-# Telegram TON 生态
+
+# TON
+
 DOMAIN-SUFFIX,ton.org
 DOMAIN-SUFFIX,toncenter.com
 DOMAIN-SUFFIX,fragment.com
 DOMAIN-SUFFIX,contest.com
 
+
 # Telegram IPv4
+
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/21,no-resolve
@@ -45,7 +60,9 @@ IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve
 
+
 # Telegram IPv6
+
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve

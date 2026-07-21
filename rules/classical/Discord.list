@@ -1,70 +1,52 @@
-# Discord 主域
+payload:
 
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.co
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discord.media
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
-DOMAIN-SUFFIX,discordapp.io
+  # Discord 主域
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.co
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discord.media
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discordapp.net
+  - DOMAIN-SUFFIX,discordapp.io
 
+  # Discord CDN / 上传
+  - DOMAIN-SUFFIX,discordcdn.com
+  - DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
 
-# Discord CDN / 上传
+  # Discord 短链
+  - DOMAIN-SUFFIX,dis.gd
+  - DOMAIN-SUFFIX,discord.new
 
-DOMAIN-SUFFIX,discordcdn.com
-DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
+  # Discord 活动
+  - DOMAIN-SUFFIX,discord-activities.com
+  - DOMAIN-SUFFIX,discordactivities.com
+  - DOMAIN-SUFFIX,discordpartygames.com
 
+  # Discord Bot
+  - DOMAIN-SUFFIX,airhorn.solutions
+  - DOMAIN-SUFFIX,airhornbot.com
+  - DOMAIN-SUFFIX,bigbeans.solutions
 
-# Discord 短链
+  # Discord 商店
+  - DOMAIN-SUFFIX,discord.store
+  - DOMAIN-SUFFIX,discordmerch.com
 
-DOMAIN-SUFFIX,dis.gd
-DOMAIN-SUFFIX,discord.new
+  # Discord 开发
+  - DOMAIN-SUFFIX,discord.dev
+  - DOMAIN-SUFFIX,discord.design
 
-
-# Discord 活动
-
-DOMAIN-SUFFIX,discord-activities.com
-DOMAIN-SUFFIX,discordactivities.com
-DOMAIN-SUFFIX,discordpartygames.com
-
-
-# Discord Bot
-
-DOMAIN-SUFFIX,airhorn.solutions
-DOMAIN-SUFFIX,airhornbot.com
-DOMAIN-SUFFIX,bigbeans.solutions
-
-
-# Discord 商店
-
-DOMAIN-SUFFIX,discord.store
-DOMAIN-SUFFIX,discordmerch.com
-
-
-# Discord 开发
-
-DOMAIN-SUFFIX,discord.dev
-DOMAIN-SUFFIX,discord.design
+  # Nitro
+  - DOMAIN-SUFFIX,discord.gift
+  - DOMAIN-SUFFIX,discord.gifts
 
 
-# Nitro
+  # Discord 工具
+  - DOMAIN-SUFFIX,discord.tools
+  - DOMAIN-SUFFIX,discordstatus.com
+  - DOMAIN-SUFFIX,discordsays.com
 
-DOMAIN-SUFFIX,discord.gift
-DOMAIN-SUFFIX,discord.gifts
+  # 历史域名
+  - DOMAIN,hammerandchisel.ssl.zendesk.com
 
-
-# Discord 工具
-
-DOMAIN-SUFFIX,discord.tools
-DOMAIN-SUFFIX,discordstatus.com
-DOMAIN-SUFFIX,discordsays.com
-
-
-# 历史域名
-
-DOMAIN,hammerandchisel.ssl.zendesk.com
-
-
-# 官方趣味域名
-
-DOMAIN-SUFFIX,watchanimeattheoffice.com
+  # 官方趣味域名
+  - DOMAIN-SUFFIX,watchanimeattheoffice.com

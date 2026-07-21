@@ -1,5 +1,6 @@
 payload:
-# Apple 主域
+
+  # Apple 主域
   - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple.com.cn
   - DOMAIN-SUFFIX,apple.co
@@ -7,14 +8,12 @@ payload:
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-dns.net
 
-
-# Apple CDN / 静态资源（专属）
+  # Apple CDN / 静态资源（专属）
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,mzstatic.com
 
-
-# iCloud
+  # iCloud
   - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud.com.cn
   - DOMAIN-SUFFIX,icloud-content.com
@@ -22,8 +21,7 @@ payload:
   - DOMAIN-SUFFIX,icloud.net.cn
   - DOMAIN-SUFFIX,icloudapple.cn
 
-
-# App Store / iTunes
+  # App Store / iTunes
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,itunes.apple.com
   - DOMAIN-SUFFIX,appstore.com
@@ -32,8 +30,7 @@ payload:
   - DOMAIN-SUFFIX,itunesradio.com
   - DOMAIN-SUFFIX,itunesu.com
 
-
-# Apple Developer / macOS
+  # Apple Developer / macOS
   - DOMAIN-SUFFIX,developer.apple.com
   - DOMAIN-SUFFIX,devimages-cdn.apple.com
   - DOMAIN-SUFFIX,devstreaming-cdn.apple.com
@@ -41,98 +38,82 @@ payload:
   - DOMAIN-SUFFIX,darwinsource.org
   - DOMAIN-SUFFIX,macosforge.org
 
-
-# Apple Push Notification
+  # Apple Push Notification
   - DOMAIN,init-p01md.apple.com
   - DOMAIN,init-p01st.push.apple.com
   - DOMAIN,init-s01st.push.apple.com
   - DOMAIN,init.gc.apple.com
   - DOMAIN,init.itunes.apple.com
 
-
-# Apple Maps
+  # Apple Maps
   - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,cdn.apple-mapkit.com
   - DOMAIN-SUFFIX,cdn-cn.apple-mapkit.com
 
-
-# Apple Music
+  # Apple Music
   - DOMAIN-SUFFIX,music.apple.com
   - DOMAIN-SUFFIX,js-cdn.music.apple.com
   - DOMAIN-SUFFIX,musickit.net
 
-
-# Apple TV
+  # Apple TV
   - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN,np-edge.itunes.apple.com
   - DOMAIN,play-edge.itunes.apple.com
 
 
-# Apple ID / Account
+  # Apple ID / Account
   - DOMAIN-SUFFIX,myappleid.com
   - DOMAIN-SUFFIX,appleid.com
   - DOMAIN,appleid.cdn-apple.com
 
-
-# MobileMe
+  # MobileMe
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mobileme.dk
 
-
-# iMessage / FaceTime
+  # iMessage / FaceTime
   - DOMAIN-SUFFIX,imessage.tv
   - DOMAIN-SUFFIX,facetime.net
 
-
-# iPhone / iPad / iPod
+  # iPhone / iPad / iPod
   - DOMAIN-SUFFIX,iphone.com
   - DOMAIN-SUFFIX,ipad.com
   - DOMAIN-SUFFIX,ipod.com
   - DOMAIN-SUFFIX,ipcdn.apple.com
 
-
-# Photos / Live Photos
+  # Photos / Live Photos
   - DOMAIN-SUFFIX,livephotos.cn
   - DOMAIN-SUFFIX,livephotos.com.cn
   - DOMAIN-SUFFIX,livephotos.tv
 
-
-# Apple 系统服务
+  # Apple 系统服务
   - DOMAIN-SUFFIX,configuration.apple.com
   - DOMAIN-SUFFIX,cstat.apple.com
   - DOMAIN-SUFFIX,gs-loc.apple.com
   - DOMAIN-SUFFIX,crl.apple.com
   - DOMAIN-SUFFIX,certs.apple.com
 
-
-# Siri
+  # Siri
   - DOMAIN,guzzoni.apple.com
 
-
-# Apple Books
+  # Apple Books
   - DOMAIN-SUFFIX,ibook.com
   - DOMAIN-SUFFIX,ibooksauthor.com
 
-
-# Apple Pro Apps
+  # Apple Pro Apps
   - DOMAIN-SUFFIX,finalcutpro.com
 
-
-# Apple FoundationDB
+  # Apple FoundationDB
   - DOMAIN-SUFFIX,foundationdb.org
 
-
-# Apple Calendar / Contacts
+  # Apple Calendar / Contacts
   - DOMAIN-SUFFIX,calendarserver.org
 
-
-# Apple Ads
+  # Apple Ads
   - DOMAIN-SUFFIX,api-adservices.apple.com
   - DOMAIN-SUFFIX,iadsdk.apple.com
   - DOMAIN-SUFFIX,iad.apple.com
 
-
-# Apple IP 段
+  # Apple IP 段
   - IP-CIDR,17.0.0.0/8,no-resolve
   - IP-CIDR,63.92.224.0/19,no-resolve
   - IP-CIDR,65.199.22.0/23,no-resolve

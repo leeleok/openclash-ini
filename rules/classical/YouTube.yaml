@@ -1,7 +1,6 @@
 payload:
 
-  # YouTube 主域
-  - DOMAIN-KEYWORD,youtube
+  # YouTube 主站
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube-nocookie.com
@@ -12,38 +11,24 @@ payload:
   - DOMAIN,youtube.googleapis.com
   - DOMAIN,youtubeembeddedplayer.googleapis.com
 
-  # YouTube 视频 CDN
+  # 视频 CDN
   - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,gvt2.com
-  - DOMAIN,wide-youtube.l.google.com
 
-  # YouTube 图片 CDN
+  # 图片 CDN
   - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN,yt3.googleusercontent.com
   - DOMAIN,yt3.ggpht.com
 
-  # YouTube 前端资源
-  - DOMAIN-SUFFIX,withyoutube.com
+  # YouTube 专用资源
+  - DOMAIN,wide-youtube.l.google.com
   - DOMAIN,youtube-ui.l.google.com
+  - DOMAIN-SUFFIX,withyoutube.com
 
   # YouTube 子服务
-  - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,youtubekids.com
   - DOMAIN-SUFFIX,youtubemobilesupport.com
-
-  # YouTube Go
-  - DOMAIN-SUFFIX,youtubego.com
-  - DOMAIN-SUFFIX,youtubego.co.in
-  - DOMAIN-SUFFIX,youtubego.co.id
-  - DOMAIN-SUFFIX,youtubego.id
-  - DOMAIN-SUFFIX,youtubego.in
-
-  # YouTube 活动
-  - DOMAIN-SUFFIX,youtubefanfest.com
 
   # YouTube 广告
   - DOMAIN,ads.youtube.com

@@ -1,0 +1,147 @@
+payload:
+
+  # ==================================================
+  # Steam / Valve
+  # ==================================================
+
+  # Steam 主域
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steam.tv
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,s.team
+
+  # Steam CDN / 下载
+  - DOMAIN,steampipe.akamaized.net
+  - DOMAIN,steampipe-kr.akamaized.net
+  - DOMAIN,steampipe-partner.akamaized.net
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN,steamvideo-a.akamaihd.net
+  - DOMAIN,steammobile.akamaized.net
+
+  # Steam Cloud
+  - DOMAIN,steamcloudsweden.blob.core.windows.net
+  - DOMAIN,steamugcquincy.blob.core.windows.net
+
+  # Steam Deck
+  - DOMAIN-SUFFIX,steamdeck.com
+
+  # Valve
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-SUFFIX,valve.net
+
+  # Steam API / 连接
+  - DOMAIN-SUFFIX,steam-api.com
+  - DOMAIN-SUFFIX,steamconnecttest.com
+
+  # Steam 中国
+  - DOMAIN-SUFFIX,wmsjsteam.com
+  - DOMAIN-SUFFIX,csgo.wmsj.cn
+  - DOMAIN-SUFFIX,dota2.wmsj.cn
+
+  # Steam 合作商店
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+
+  # Valve 游戏
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,underlords.com
+
+
+  # ==================================================
+  # EA / Origin
+  # ==================================================
+
+  # EA 主域
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,eastore.com
+  - DOMAIN-SUFFIX,origin.com
+  - DOMAIN-SUFFIX,origin.tv
+
+  # EA CDN / 静态资源
+  - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,originasserts.akamaized.net
+  - DOMAIN,eaasserts-a.akamaihd.net
+  - DOMAIN,ssl-lvlt.cdn.ea.com
+
+  # EA 游戏服务
+  - DOMAIN-SUFFIX,dawngate.com
+  - DOMAIN-SUFFIX,lordofultima.com
+
+  # EA 实时服务
+  - DOMAIN,rtm.tnt-ea.com
+
+  # EA 云同步
+  - DOMAIN,cloudsync-prod.s3.amazonaws.com
+
+
+  # ==================================================
+  # Epic Games
+  # ==================================================
+
+  # Epic 主域
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,epicgamescdn.com
+
+  # Unreal Engine
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,unrealtournament.com
+  - DOMAIN-SUFFIX,radgametools.com
+
+  # Fortnite
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN,fortnite-vod.akamaized.net
+  - DOMAIN,egdownload.fastly-edge.com
+
+  # Easy Anti Cheat
+  - DOMAIN-SUFFIX,easy.ac
+  - DOMAIN-SUFFIX,easyanticheat.net
+  - DOMAIN-SUFFIX,eac-cdn.com
+
+  # Epic 游戏生态
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,playparagon.com
+  - DOMAIN-SUFFIX,battlebreakers.com
+  - DOMAIN-SUFFIX,roborecall.com
+  - DOMAIN-SUFFIX,shadowcomplex.com
+  - DOMAIN-SUFFIX,spyjinx.com
+
+  # Epic 收购项目
+  - DOMAIN-SUFFIX,3lateral.com
+  - DOMAIN-SUFFIX,capturingreality.com
+  - DOMAIN-SUFFIX,cubicmotion.com
+  - DOMAIN-SUFFIX,hyprsense.com
+
+  # Quixel
+  - DOMAIN-SUFFIX,quixel.com
+  - DOMAIN-SUFFIX,quixel.se
+
+  # RealityScan
+  - DOMAIN-SUFFIX,realityscan.com
+
+  # ArtStation
+  - DOMAIN-SUFFIX,artstation.com
+
+  # Fab
+  - DOMAIN-SUFFIX,fab.com
+
+  # Twinmotion
+  - DOMAIN-SUFFIX,twinmotion.com
+
+  # Sketchfab
+  - DOMAIN-SUFFIX,sketchfab.com
+
+  # Epic 客服
+  - DOMAIN-SUFFIX,helpshift.com

@@ -210,3 +210,12 @@ payload:
   # -------------------------
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
+
+  # -------------------------
+  # Microsoft 身份认证（补全）
+  # -------------------------
+  - DOMAIN-SUFFIX,login.microsoftonline.com
+  - DOMAIN-SUFFIX,login.windows.net
+  - DOMAIN-SUFFIX,account.microsoft.com
+  - DOMAIN-SUFFIX,account.live.com
+

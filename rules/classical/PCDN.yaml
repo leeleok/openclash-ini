@@ -1,0 +1,82 @@
+payload:
+  # Common PCDN
+  - DOMAIN-SUFFIX,bsccdn.net
+  - DOMAIN-SUFFIX,bsclink.cn
+  - DOMAIN-SUFFIX,bsgslb.cn
+  - DOMAIN-SUFFIX,gjfzpt.cn
+  - DOMAIN-SUFFIX,ietheivaicai.com
+  - DOMAIN-SUFFIX,jomodns.cn
+  - DOMAIN-SUFFIX,kuiniuca.com
+  - DOMAIN-SUFFIX,nexusedgeio.com
+  - DOMAIN-SUFFIX,onethingpcs.com
+  - DOMAIN-SUFFIX,pkoplink.com
+  - DOMAIN-SUFFIX,pplive-p2p.com
+  - DOMAIN-SUFFIX,saxysec.com
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,uhabo.com
+  - DOMAIN-SUFFIX,xycdn.com
+  - DOMAIN-SUFFIX,yfcloud.com
+  - DOMAIN-SUFFIX,pcdn.yximgs.com
+  - DOMAIN-SUFFIX,kspcdn.com
+  - DOMAIN-SUFFIX,ws-p2p.com
+
+  # iQIYI
+  - DOMAIN-SUFFIX,data-qvs.iqiyi.com
+  - DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com
+  - DOMAIN-REGEX,.*pcdn.*\.iqiyi\.com
+
+  # Youku / Alibaba
+  - DOMAIN-SUFFIX,acs.youku.com
+  - DOMAIN-SUFFIX,pcdn.livelive.cn
+  - DOMAIN-SUFFIX,pcdn.volcvideo.com
+  - DOMAIN-REGEX,.*p2p.*\.youku\.com
+  - DOMAIN-REGEX,.*pcdn.*\.youku\.com
+
+  # Tencent
+  - DOMAIN-SUFFIX,p.tencentmusic.com
+  - DOMAIN-SUFFIX,vlivep2p.tc.qq.com
+  - DOMAIN-REGEX,.*p2p.*\.qq\.com
+  - DOMAIN-REGEX,.*pcdn.*\.l\.qq\.com
+
+  # Bilibili
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,p2p.bilibili.com
+  - DOMAIN-SUFFIX,pcdn.bilibili.com
+  - DOMAIN-REGEX,.*pcdn.*\.bilivideo\.com
+
+  # Xunlei
+  - DOMAIN-SUFFIX,down.sandai.net
+  - DOMAIN-SUFFIX,hub.p2p.xunlei.com
+  - DOMAIN-SUFFIX,p2p.xunlei.com
+  - DOMAIN-SUFFIX,pcdn.cloud.xunlei.com
+
+  # Baidu
+  - DOMAIN-SUFFIX,d.pcs.baidu.com
+  - DOMAIN-SUFFIX,p.bokecc.com
+  - DOMAIN-SUFFIX,p2p.baidupcs.com
+
+  # Douyu / Huya
+  - DOMAIN-SUFFIX,p2p.huya.com
+  - DOMAIN-SUFFIX,stun.douyucdn.cn
+  - DOMAIN-SUFFIX,stun.hitv.com
+  - DOMAIN-SUFFIX,stun1.douyucdn.cn
+  - DOMAIN-REGEX,.*p2p.*douyucdn\.cn
+
+  # Other Video Platforms
+  - DOMAIN-SUFFIX,pcdn.xmcdn.com
+  - DOMAIN-SUFFIX,pcdn.ksyun.com
+  - DOMAIN-SUFFIX,pcdn.mgtv.com
+  - DOMAIN-SUFFIX,p2p.wasu.cn
+  - DOMAIN-SUFFIX,pcdn.wasu.cn
+  - DOMAIN-SUFFIX,p2p.cctv.cn
+
+  # Games
+  - DOMAIN-SUFFIX,p2p.wanmei.com
+
+  # IoT
+  - DOMAIN-SUFFIX,gw.smart.jd.com
+  - DOMAIN-SUFFIX,router-app-api.jd.com
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,pandora.xiaomi.com
+  - DOMAIN-SUFFIX,p2p.mi.com
+  - DOMAIN-SUFFIX,data.mistat.xiaomi.com

@@ -1,6 +1,5 @@
 payload:
   # Common PCDN
-  - DOMAIN-SUFFIX,yirujs.com
   - DOMAIN-SUFFIX,bsccdn.net
   - DOMAIN-SUFFIX,bsclink.cn
   - DOMAIN-SUFFIX,bsgslb.cn
